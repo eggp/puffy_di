@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    library_prefixes: false
+    constant_identifier_names: false
+    prefer_double_quotes: false
+    prefer_single_quotes: true
+    prefer_const_declarations: true
+    avoid_final_parameters: true
+    prefer_final_fields: true
+    prefer_final_in_for_each: true
+    prefer_final_locals: true
+    unnecessary_nullable_for_final_variable_declarations: true
+    require_trailing_commas: true
+    unnecessary_await_in_return: true
+    avoid_redundant_argument_values: true
+    unnecessary_parenthesis: true
+    always_declare_return_types: true
+    avoid_void_async: true
+    prefer_relative_imports: true
+    avoid_relative_lib_imports: true
+    avoid_function_literals_in_foreach_calls: false
